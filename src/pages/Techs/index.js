@@ -16,7 +16,7 @@ import {
 
 import api from '../../services/api';
 
-export default function App() {
+export default function Techs() {
   const [loading, setLoading] = useState(false);
   const [techs, setTechs] = useState([]);
   const [newTech, setNewTech] = useState(null);
